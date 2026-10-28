@@ -1,4 +1,4 @@
-// 学习计时本 · Mac 菜单栏版
+// StudyBar（学习计时本）· Mac 菜单栏学习计时器
 // 需要 macOS 13 及以上。把整个文件内容替换 Xcode 新项目里的 xxxApp.swift，
 // 并删除自动生成的 ContentView.swift。
 // 新加的字段都是可选的，旧版本存下的数据可以直接读出来。
@@ -557,7 +557,7 @@ final class Store: ObservableObject {
 // MARK: - App 入口
 
 @main
-struct StudyTimerApp: App {
+struct StudyBarApp: App {
     @StateObject private var store = Store()
 
     var body: some Scene {
